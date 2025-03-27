@@ -73,7 +73,7 @@ class VoiceApp(QMainWindow):
 
     def get_location(self):
         # Remplacez 'YOUR_API_KEY' par votre clé API Google Maps
-        API_KEY = "YOUR_API_KEY"
+        API_KEY = "AIzaSyDZRfqodpSlcYJ9BfclQ8ba5Pg3Q_4hfYI"
         url = f"https://www.googleapis.com/geolocation/v1/geolocate?key={API_KEY}"
         try:
             response = requests.post(url, json={})
